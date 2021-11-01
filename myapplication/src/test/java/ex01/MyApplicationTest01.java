@@ -17,5 +17,7 @@ public class MyApplicationTest01 {
 	@Test
 	public void myComponentNotNull() {
 		assertNotNull(myComponent);
+		
 	}
+	
 }
