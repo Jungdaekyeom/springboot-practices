@@ -20,15 +20,13 @@ public class MyWebApplication {
 
 	@Controller
 	public class HelloController2 {
-		// localhost:8888/hello => 한큐에 바로 됨 ㅋ
-		@GetMapping("/hello")
+		@GetMapping("/hello2")
 		public String hello() {
-			return "/WEB-INF/views/hello.jsp";
+			return "hello2";
 		}
 	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyWebApplication.class, args);
 	}
-
 }
